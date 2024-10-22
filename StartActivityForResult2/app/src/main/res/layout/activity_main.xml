@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Color App"
+        android:textSize="24sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANGE BGCOLOR"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#6200EE"/>
+
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="We have developed speed, but we have shut ourselves in. Machinery that gives abundance has left us in want. Our knowledge as made us cynical; our cleverness, hard and unkind. We think too much and feel too little. More than machinery we need humanity. More than cleverness, we need kindness and gentleness. Without these qualities, life will be violent and all will be lost."
+        android:textColor="#000000"/>
+
+</LinearLayout>
